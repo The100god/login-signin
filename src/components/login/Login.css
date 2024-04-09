@@ -1,0 +1,75 @@
+.login {
+  display: flex;
+  flex-direction: column;
+  width: 375px;
+  height: 725px;
+  margin: auto;
+  background: #f7f8f9 0% 0% no-repeat padding-box;
+  opacity: 1;
+  justify-content: left;
+  padding: 30px 20px;
+}
+
+.loginHeading {
+  width: 188px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.loginTitle {
+  font: normal normal medium 28px/36px Rubik;
+  color: #1d2226;
+  opacity: 1;
+}
+
+.loginSubtitle {
+  width: 232px;
+  text-align: left;
+  font: normal normal normal 17px Rubik;
+  color: #1d2226;
+  opacity: 0.6;
+}
+
+.loginForm {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.loginForm>input {
+  width: 335px;
+  height: 40px;
+  border: 1px solid #cbcbcb;
+  border-radius: 7px;
+  padding: 0 10px;
+}
+.loginForm>label {
+  display: flex;
+  width: fit-content;
+  position: relative;
+  top: 14px;
+  left: 10px;
+  font: normal normal normal 13px Rubik;
+  padding: 0px 15px;
+  color: #6c25ff;
+  opacity: 1;
+  background-color: white;
+}
+input:focus {
+  border: 1px solid #6c25ff;
+}
+
+.loginForm button {
+  width: 335px;
+  height: 40px;
+  background: #cbcbcb 0% 0% no-repeat padding-box;
+  border-radius: 6px;
+  opacity: 1;
+  margin-top: 10px;
+  font: normal normal 500 18px Rubik;
+  color: #ffffff;
+}

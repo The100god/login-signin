@@ -1,0 +1,94 @@
+.signin{
+    display: flex;
+  flex-direction: column;
+  width: 375px;
+  height: 725px;
+  margin: auto;
+  background: #f7f8f9 0% 0% no-repeat padding-box;
+  opacity: 1;
+  justify-content: left;
+  padding: 30px 20px;
+}
+
+.signinTitle{
+    width: 188px;
+    display: flex;
+    flex-direction: column;
+}
+
+.signinForm{
+    display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.signinForm>input {
+    width: 335px;
+    height: 40px;
+    border: 1px solid #cbcbcb;
+    border-radius: 7px;
+    padding: 0 10px;
+  }
+  .signinForm>label {
+    display: flex;
+    width: fit-content;
+    position: relative;
+    top: 14px;
+    left: 10px;
+    font: normal normal normal 13px Rubik;
+    padding: 0px 15px;
+    color: #6c25ff;
+    opacity: 1;
+    background-color: white;
+  }
+
+  span{
+    color:red;
+  }
+
+  .quary{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0px;
+  }
+  .quary>p{
+    font: normal normal normal 13px/17px Rubik;
+  }
+
+  .radioIn{
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: left;
+    align-items: center;
+    margin-top: 7px;
+  }
+
+  .radioIn>input{
+    border: 1px solid #919191;
+    color: #6C25FF;
+  }
+  
+
+  .radioIn>label{
+    display: flex;
+    justify-content: center;align-items: center;
+    padding: 0 20px 0px 10px ;
+    margin-top: -2px;
+    font: normal normal normal 14px/17px Rubik;
+    color: #1D2226;
+  }
+
+  .signBtn{
+    position: absolute;
+    bottom: 15px;
+    width: 335px;
+    height: 40px;
+    background: #6C25FF 0% 0% no-repeat padding-box;
+border-radius: 6px;
+font: normal normal medium 16px/17px Rubik;
+color: #FFFFFF;
+display: flex;
+justify-content: center;
+align-items: center;
+  }

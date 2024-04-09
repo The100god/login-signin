@@ -1,0 +1,93 @@
+.setting {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  background: #f7f8f9 0% 0% no-repeat padding-box;
+  width: 375px;
+  height: 812px;
+  opacity: 1;
+}
+
+.heading {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  text-align: left;
+  padding: 0px 18px;
+  width: 375px;
+  height: 68px;
+  font: normal normal normal 18px/21px Rubik;
+  color: #1d2226;
+  text-transform: capitalize;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000007;
+  opacity: 1;
+}
+.profile {
+  display: flex;
+  flex-direction: column;
+}
+
+.profileInfo {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  padding: 20px;
+}
+
+.profilePic {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 80px;
+}
+
+.userProfilePic {
+  width: 76px;
+  height: 76px;
+  background: transparent;
+  border-radius: 50%;
+}
+
+.uplogeImg {
+  width: 21px;
+  height: 23px;
+  position: relative;
+  top: 20px;
+  left: -15px;
+  cursor: pointer;
+}
+
+.userInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: flex-start;
+  margin-top: -30px;
+  text-align: left;
+  font: normal normal medium 15px/19px Rubik;
+  padding-left: 5px;
+}
+.userInfo > h3 {
+  text-align: left;
+  font: normal normal medium 15px/19px Rubik;
+  color: #1d2226;
+  text-transform: capitalize;
+  opacity: 1;
+}
+
+.profileDisc {
+  padding: 0 18px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  width: 100%;
+  color: #1d2226;
+  font: normal normal normal 14px/22px Rubik;
+  padding-bottom: 17px;
+  border-bottom: 1px dashed rgb(189, 187, 187);
+}
+
